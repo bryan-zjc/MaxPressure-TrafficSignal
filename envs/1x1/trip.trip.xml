@@ -1,0 +1,29 @@
+<routes>
+        <vType id="NV" accel="3" decel="5" tau="1.0" speedFactor="1.0" speedDev="0.0" sigma="0.5" length="5" minGap="2" maxSpeed="60" guiShape="passenger" color="0,1,0"/>
+        <vType id="RV" accel="3" decel="5" tau="1.0" speedFactor="1.0" speedDev="0.0" sigma="0.5" length="5" minGap="2" maxSpeed="60" guiShape="passenger" color="1,0,0"/>
+            
+<flow id="OD0_NV" begin="0" end= "3600" vehsPerHour="240.0" type='NV' from="1" to="2"/>
+<flow id="OD0_RV" begin="0" end= "3600" vehsPerHour="60.0" type='RV' from="1" to="2"/>
+<flow id="OD1_NV" begin="0" end= "3600" vehsPerHour="240.0" type='NV' from="1" to="-3"/>
+<flow id="OD1_RV" begin="0" end= "3600" vehsPerHour="60.0" type='RV' from="1" to="-3"/>
+<flow id="OD2_NV" begin="0" end= "3600" vehsPerHour="240.0" type='NV' from="1" to="4"/>
+<flow id="OD2_RV" begin="0" end= "3600" vehsPerHour="60.0" type='RV' from="1" to="4"/>
+<flow id="OD3_NV" begin="0" end= "3600" vehsPerHour="240.0" type='NV' from="-2" to="-1"/>
+<flow id="OD3_RV" begin="0" end= "3600" vehsPerHour="60.0" type='RV' from="-2" to="-1"/>
+<flow id="OD4_NV" begin="0" end= "3600" vehsPerHour="240.0" type='NV' from="-2" to="-3"/>
+<flow id="OD4_RV" begin="0" end= "3600" vehsPerHour="60.0" type='RV' from="-2" to="-3"/>
+<flow id="OD5_NV" begin="0" end= "3600" vehsPerHour="240.0" type='NV' from="-2" to="4"/>
+<flow id="OD5_RV" begin="0" end= "3600" vehsPerHour="60.0" type='RV' from="-2" to="4"/>
+<flow id="OD6_NV" begin="0" end= "3600" vehsPerHour="240.0" type='NV' from="3" to="-1"/>
+<flow id="OD6_RV" begin="0" end= "3600" vehsPerHour="60.0" type='RV' from="3" to="-1"/>
+<flow id="OD7_NV" begin="0" end= "3600" vehsPerHour="240.0" type='NV' from="3" to="2"/>
+<flow id="OD7_RV" begin="0" end= "3600" vehsPerHour="60.0" type='RV' from="3" to="2"/>
+<flow id="OD8_NV" begin="0" end= "3600" vehsPerHour="240.0" type='NV' from="3" to="4"/>
+<flow id="OD8_RV" begin="0" end= "3600" vehsPerHour="60.0" type='RV' from="3" to="4"/>
+<flow id="OD9_NV" begin="0" end= "3600" vehsPerHour="240.0" type='NV' from="-4" to="-1"/>
+<flow id="OD9_RV" begin="0" end= "3600" vehsPerHour="60.0" type='RV' from="-4" to="-1"/>
+<flow id="OD10_NV" begin="0" end= "3600" vehsPerHour="240.0" type='NV' from="-4" to="2"/>
+<flow id="OD10_RV" begin="0" end= "3600" vehsPerHour="60.0" type='RV' from="-4" to="2"/>
+<flow id="OD11_NV" begin="0" end= "3600" vehsPerHour="240.0" type='NV' from="-4" to="-3"/>
+<flow id="OD11_RV" begin="0" end= "3600" vehsPerHour="60.0" type='RV' from="-4" to="-3"/>
+</routes>

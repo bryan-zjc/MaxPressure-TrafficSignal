@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-03-07 16:25:08 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="./envs/5x5/5x5.net.xml"/>
+        <route-files value="./envs/5x5/Demand.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="./tripinfo/5x5/tripinfo_MP.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+        <waiting-time-memory value="1800"/>
+    </processing>
+
+    <report>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="53971"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="OD177_NV.0" depart="5.00" departLane="right0E0_0" departPos="5.10" departSpeed="10.00" departDelay="0.01" arrival="51.00" arrivalLane="E0bottom4_2" arrivalPos="286.40" arrivalSpeed="13.88" duration="46.00" routeLength="592.21" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.62" rerouteNo="0" devices="tripinfo_OD177_NV.0" vType="NV" speedFactor="1.00" vaporized=""/>

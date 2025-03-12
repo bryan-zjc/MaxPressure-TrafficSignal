@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="2x2.net.xml"/>
+        <route-files value="Demand.rou.xml"/>
+    </input>
+
+    <time>
+      <begin value="0"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <output>
+        <tripinfo-output value="tripinfo_2x2.xml"/>
+    </output>
+
+</configuration>

@@ -1,0 +1,1 @@
+netgenerate --grid --grid.number=5 --grid.length=300 --output-file=MySUMOFile.net.xml --grid.x-attach-length=300 --grid.y-attach-length=300 --default-junction-type=traffic_light --default.lanenumber=3 --no-turnarounds=true
